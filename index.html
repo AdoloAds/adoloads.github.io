@@ -20,6 +20,11 @@
                                              clearInterval(countdown); 
                                              window.location.href = 'https://www.google.com'; // Redirect to Google
                                            } }, 1000); // Update every second 
+
+
+      // This will remove the loading animation after 3 seconds 
+      setTimeout(() => { document.getElementById('loading').style.display = 'none'; 
+                       }, 10000);
     </script>
   </body> 
 </html>
