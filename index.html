@@ -3,7 +3,17 @@
   <head>
   <title>Adolo</title>
   <meta http-equiv="refresh" content="0;url=https://adolo.glitch.me">
+  <script src="https://kit.fontawesome.com/eeb01edac2.js" crossorigin="anonymous"></script>
+    <style>
+      .loader { width: 100px; height: 100px; animation: spin 1s linear infinite; } @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
+    </style>
 </head>
 <body>
+  <div id="loading"> <img src="https://cdn.glitch.global/0ef5d9a7-5b71-4f7a-b26c-d8b1f1b8308b/spinner-ios.svg?v=1738714731701" alt="Description of SVG" /> </div>
   <h1><center>Redirecting...</center></h1>
+
+  <script>
+    // This will remove the loading animation after 3 seconds
+    setTimeout(() => { document.getElementById('loading').style.display = 'none'; }, 3000); 
+  </script>
 </body>
